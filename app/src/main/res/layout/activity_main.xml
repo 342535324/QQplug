@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/main_btn_0"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="备份QQ图片缓存" />
+
+        <Button
+            android:id="@+id/main_btn_1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"  android:layout_marginBottom="20dp"
+            android:text="删除QQ图片缓存" />
+
+        <Button
+            android:id="@+id/main_btn_2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"  android:layout_marginBottom="20dp"
+            android:text="打开QQ图片缓存文件夹" />
+
+
+
+        <Button
+            android:id="@+id/main_btn_3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="备份QQ文件缓存" />
+
+        <Button
+            android:id="@+id/main_btn_4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"  android:layout_marginBottom="20dp"
+            android:text="删除QQ文件缓存" />
+
+        <Button
+            android:id="@+id/main_btn_5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"  android:layout_marginBottom="20dp"
+            android:text="打开QQ文件缓存文件夹" />
+
+    </LinearLayout>
+</LinearLayout>
