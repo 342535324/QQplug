@@ -80,7 +80,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 sum = fileList.size();
                 for (DocumentFile file : fileList) {
                     backupDir(file, BACKUPIMG_CODE);
-                    Toast.makeText(getApplicationContext(), String.format("备份图片成功%d/%d",current++,sum), Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(getApplicationContext(), String.format("备份图片成功%d/%d",current++,sum), Toast.LENGTH_SHORT).show();
                 }
                 Toast.makeText(getApplicationContext(), String.format("成功保存%d张图片至相册的QQMobileChatimg文件夹", saveImgCount), Toast.LENGTH_SHORT).show();
                 break;
@@ -97,7 +97,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 sum = fileList.size();
                 for (DocumentFile file : fileList) {
                     backupDir(file, BACKUPFILE_CODE);
-                    Toast.makeText(getApplicationContext(), String.format("备份文件成功%d/%d",current++,sum), Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(getApplicationContext(), String.format("备份文件成功%d/%d",current++,sum), Toast.LENGTH_SHORT).show();
                 }
                 Toast.makeText(getApplicationContext(), String.format("成功保存%d个文件至下载目录的QQMobileFile文件夹", saveFileCount), Toast.LENGTH_SHORT).show();
                 break;
@@ -112,7 +112,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 sum = fileList.size();
                 for (DocumentFile children :fileList) {
                     deleteDir(children);
-                    Toast.makeText(getApplicationContext(), String.format("删除图片成功%d/%d",current++,sum), Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(getApplicationContext(), String.format("删除图片成功%d/%d",current++,sum), Toast.LENGTH_SHORT).show();
                 }
                 Toast.makeText(getApplicationContext(), "删除图片缓存完毕", Toast.LENGTH_SHORT).show();
                 break;
@@ -126,7 +126,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 sum = fileList.size();
                 for (DocumentFile children : fileList) {
                     deleteDir(children);
-                    Toast.makeText(getApplicationContext(), String.format("删除文件成功%d/%d",current++,sum), Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(getApplicationContext(), String.format("删除文件成功%d/%d",current++,sum), Toast.LENGTH_SHORT).show();
                 }
                 Toast.makeText(getApplicationContext(), "删除文件缓存完毕", Toast.LENGTH_SHORT).show();
                 break;
