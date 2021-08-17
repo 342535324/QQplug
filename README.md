@@ -3,6 +3,8 @@
 
 demo的apk(未签名)在 app/build/outputs/apk/debug/app-debug.apk
 
+源码在QQplug/app/src/main目录下
+
 ## 用法：
 
 1.在主菜单点击功能
