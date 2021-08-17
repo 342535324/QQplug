@@ -11,8 +11,8 @@ demo的apk(未签名)在 app/build/outputs/apk/debug/app-debug.apk
 
 2.在新页面底部点击“使用此文件夹”按钮进行授权
 
-![image](https://github.com/342535324/QQplug/blob/main/img/step_0.jpg)
+![image](https://gitee.com/mingyannu/QQplug/blob/main/img/step_0.jpg)
 
-![image](https://github.com/342535324/QQplug/blob/main/img/step_1.jpg)
+![image](https://gitee.com/mingyannu/QQplug/blob/main/img/step_1.jpg)
 
-![image](https://github.com/342535324/QQplug/blob/main/img/step_2.jpg)
+![image](https://gitee.com/mingyannu/QQplug/blob/main/img/step_2.jpg)
