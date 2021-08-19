@@ -1,3 +1,7 @@
+# 项目地址
+
+[github](https://github.com/342535324/QQplug)/[gitee](https://gitee.com/mingyannu/QQplug)
+
 # QQplug
  android QQ的插件 可备份/删除缓存(含闪照)
 
